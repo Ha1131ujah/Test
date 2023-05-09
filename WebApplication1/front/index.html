@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets//css/style.css">
+  <title>Test</title>
+</head>
+<body>
+
+  <main class="main">
+    <div class="container">
+
+      <div class="main__form">
+        <input type="file" id="fileInput" accept=".txt">
+
+        <div class="sort">
+          <select id="sortSelect">
+            <option selected disabled value="">Выберите тип сортировки</option>
+            <option value="asc">По возрастанию</option>
+            <option value="desc">По убыванию</option>
+            <option value="reverse">Развернуть список</option>
+          </select>
+
+          <button type="button" id="sortButton">Отсортировать</button>
+        </div>
+      </div>
+
+      <div class="main__content">
+        <ul class="main__list" id="mainList"></ul>
+
+        <ul class="main__list" id="resultList"></ul>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="./assets/js/index.js" type="module" />
+</body>
+</html>

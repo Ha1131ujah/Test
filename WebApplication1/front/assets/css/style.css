@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+
+  margin: 0 auto;
+
+  padding: 30px;
+}
+
+.main__form {
+  display: flex;
+  flex-direction: column;
+
+  grid-gap: 20px;
+}
+
+.main__content {
+  max-width: 500px;
+
+  display: flex;
+  justify-content: space-between;
+}
